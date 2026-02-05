@@ -42,14 +42,14 @@ print("Branch:",my_dict["Branch"])
 
 
 contacts = {
-    "Alice": "7665551234",
-    "Bob": "7435555678",
-    "Charlie": "9575559012"
+    "Ak": "7665551234",
+    "MS": "7435555678",
+    "Vk": "9575559012"
 }
-contacts["Diana"] = "9845897610"
-contacts["Bob"] = "7865478970"
-print("Lookup Alice:", contacts.get("Alice", "Contact not found"))
-print("Lookup Eve:", contacts.get("Eve", "Contact not found"))
+contacts["shub"] = "9845897610"
+contacts["MS"] = "7865478970"
+print("Lookup Ak:", contacts.get("Ak", "Contact not found"))
+print("Lookup Dk:", contacts.get("Dk", "Contact not found"))
 print("\nContact List:")
 for name, phone in contacts.items():
     print(f"Contact: {name} | Phone: {phone}")
